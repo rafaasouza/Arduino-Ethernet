@@ -29,15 +29,12 @@ Receber o ping do Arduino no smartphone
 
 ## 3. Plano de endereçamento IP
 
-Rede: 192.168.0.0/24
-
-Gateway: 192.168.0.1
 
 | Dispositivo | Tipo de IP | Endereço IP | Observação |
 |-------------|-------------|-------------|-------------|
-| Roteador | Estático | 192.168.0.1 | IP do roteador |
-| Arduino | Reserva DHCP | 10.26.45.54 | IP reservado pelo roteador |
-| PC | Reserva DHCP | 192.168.56.1 | IP reservado pelo roteador |
+| Roteador | Estático | 192.168.1.1 | IP do roteador |
+| Arduino | Reserva DHCP | 192.168.1.100 | IP reservado pelo roteador |
+| PC | DHCP | Automático | IP atribuido pelo roteador |
 | Smartphone| DHCP | Automático | IP atribuido pelo roteador | 
 
 ---
