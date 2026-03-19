@@ -11,7 +11,7 @@ Data: 17/03/2026
 ---
 
 ## 1. Objetivo
-Receber o ping do Arduino no smartphone
+Conseguir receber o ping do Arduino no smartphone
 
 ---
 
